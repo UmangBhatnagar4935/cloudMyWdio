@@ -26,6 +26,6 @@ describe("Copy & Paste", () => {
     await insideSearchBar.setValue(contentAboutActor);
     await browser.keys([Key.Enter]);
 
-    await browser.pause(3000);
+    await browser.pause(2000);
   });
 });
